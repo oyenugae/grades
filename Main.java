@@ -22,7 +22,7 @@ public class Main {
         }
 
         averageGrade = totalGrade/grade.length;
-
+// checks if student pass or fail based on the averageGrade
         if (averageGrade < 50)
             passFail = "FAIL";
         else
